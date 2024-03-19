@@ -45,7 +45,9 @@
         .gallery {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-gap: 10px;
+            grid-gap: 20px 10px; /* 20px horizontally, 10px vertically */
+            justify-content: center; /* Center horizontally */
+            padding: 0 20px; /* Padding left and right */
         }
 
         .gallery img {
@@ -70,7 +72,6 @@
 </nav>
 
 <main>
-    <h2>Pictures Here</h2>
     <div class="gallery">
         <img src="root/images/one.JPG" alt="Image 1">
         <img src="root/images/two.JPG" alt="Image 2">
