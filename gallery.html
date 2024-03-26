@@ -13,10 +13,11 @@
         }
 
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #fff;
+            color: #D9534F;
             padding: 20px;
             text-align: center;
+            font-family: Helvetica, Arial, sans-serif;
         }
 
         nav {
@@ -42,26 +43,19 @@
         main {
             padding: 20px;
         }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 20px 10px; /* 20px horizontally, 10px vertically */
-            justify-content: center; /* Center horizontally */
-            padding: 100px 100px; /* Padding left and right */
+       .small-image {
+            width: 20px; /* Adjust the width to your desired size */
+            height: 20px; /* Maintain aspect ratio */
+            vertical-align: middle; /* Align the image vertically with text */
+            margin-left: 5px; /* Add margin to separate the image from the text */
         }
-
-        .gallery img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-        }
-
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Welcome to Our Website</h1>
+    <h1>Dumpster Fortress Gates</h1>
+    <h3>By Yeit Welding<img src="root/images/yetilogo.png" alt="Small Image" class="small-image"></h3>
 </header>
 
 <nav>
