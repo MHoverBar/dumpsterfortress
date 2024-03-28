@@ -47,6 +47,19 @@
             margin: 0 auto; /* Center horizontally */
             text-align: center; /* Center text inside main */
         }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px 10px; /* 20px horizontally, 10px vertically */
+            justify-content: center; /* Center horizontally */
+            padding: 100px 100px; /* Padding left and right */
+        }
+
+        .gallery img {
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+        }
        .small-image {
             width: 20px; /* Adjust the width to your desired size */
             height: 20px; /* Maintain aspect ratio */
